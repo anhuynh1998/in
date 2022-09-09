@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF__8">
+    <meta http__equiv="X__UA__Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device__width, initial__scale=1.0">
+    <title>Noti</title>
+    <link rel="stylesheet" href="noti.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384__rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="toast" id="toast_1">
+        <div class="toast__notic toast_show ">
+            <div class="toast__notic__content__left">
+            <i class="fas fa-exclamation"></i>
+
+            </div>
+            <div class=" toast__notic__content__right ">
+                <ul class="toast__notic__content__right__infor">
+                    <li class="toast__notic__content__right__infor__item">
+                        Chi phí để xem chi tiết chính chủ là : <span class="toast__notic__content__rigth__infor__item--style--price" >1.000 VND/tin </span>
+                    </li>
+                    <li class="toast__notic__content__right__infor__item">
+                      Tin đã xem sẽ không bị tính phí khi xem lại 
+                    </li>
+
+                    
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="toast__warning toast_show ">
+            <div class="toast__warning__left">
+            <i class="fas fa-times"></i>
+
+            </div>
+            <div class="toast__waring__right">
+                <span class="toast__warning__right__font__weight__top">
+                    Bạn cần cập nhật lại thông tin sau để tiếp tục
+                </span>
+                <span class="toast__warning__right__font__weight__bottom">
+                   Mã số thuế và tên công ty không khớp nhau 
+                </span>
+
+            </div>
+           
+        </div>
+        <div class="toast__success toast_show ">
+            <div class="toast__success__left">
+                <i class="fas fa-check-circle"></i>
+
+            </div>
+            <div class="toast__success__mid">
+                <span class="toast__success__right__font__top">
+                    Success title
+                </span>
+                <span class="toast__success__right__font__bottom">
+                    Write detail about the message, it’s take up to maximum 3 rows
+
+                </span>
+
+            </div>
+            <div class="toast__success__right">
+                <span>x</span>
+            </div>
+
+        </div>
+        <div class="toast__fs toast_show ">
+            <div class="toast__fs__content__left">
+                <i class="fas fa-exclamation"></i>
+
+            </div>
+            <div class="toast__fs__content__right">
+                <span class="toast__fs__content__right__style__text">
+                    Bạn cần hoàn thành hồ sơ doanh nghiệp để có thể chỉnh sửa thông tin
+                    doanh nghiệp
+                </span>
+                <a class=" toast__fs__content__right__style__link" href="">
+                    Bấm để hoàn thành hồ sơ
+                </a>
+
+            </div>
+        </div>
+        <div class="toast__erro toast_show ">
+            <div class="toast__erro__content__left">
+                <i class="fas fa-exclamation"></i>
+                
+
+            </div>
+            <div class="toast__erro__content__mid">
+                <div class="toast__erro__content__mid__style__title">
+                    Error title
+                </div>
+                <div class="toast__erro__conttent__mid__style__content">
+                    Write detail about the message, it’s take up to maximum 3 rows
+                </div>
+            </div>
+            <div class="toast__erro__content__right">
+                x
+            </div>
+        </div>
+    </div>
+    <button onclick="random()"  class="btn__random--style">Random Toast </button>
+    
+</body>
+<script src="noti.js"></script>
+</html>
